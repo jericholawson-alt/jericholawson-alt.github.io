@@ -1,0 +1,55 @@
+---
+# about:
+#   template: jolla
+#   image: images/rainbowR-square.svg
+#   links:
+#   - icon: github
+#     text: Github
+#     href: https://github.com/r-lgbtq
+include-in-header: 
+  - _includes/mastodon.html
+  - _includes/fontawesome.html
+page-layout: full
+freeze: false
+---
+
+![](images/rainbowR-banner-thin1.svg)
+
+::: {.center-h .top-quote}
+Our mission is to [connect]{.red}, [support]{.orange} and [promote]{.yellow} [LGBTQ+]{.green} people in the [R community]{.blue} and to spread awareness of LGBTQ+ issues through [data-driven activism]{.pink}
+:::
+
+![](images/rainbowR-banner-thin2.svg)
+
+```{r}
+#| echo: false
+
+# redirects strategy adapted from djnavarro
+# https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/#netlify-redirects
+# list names of post folders
+posts <- list.dirs(
+  path = here::here("posts"),
+  full.names = FALSE,
+  recursive = FALSE
+)
+
+# extract the slugs
+slugs <- gsub("^.*_", "", posts)
+
+# fix some early mistakes
+fix_mistakes <- c("/posts/tidyrainbow/rainbow.html /posts/2022-06-05_tidyrainbow",
+                  "/posts/relaunching-rainbowr/relaunching-rainbowr.html /posts/2022-06-20_relaunching-rainbowr")
+
+# redirects to other sites
+others <- c("/join https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/",
+            "/useR-2024 https://r-lgbtq.github.io/useR-2024/", 
+            "/user-2024 https://r-lgbtq.github.io/useR-2024/")
+
+# lines to insert to a netlify _redirect file
+new_redirects <- paste0("/", slugs, " ", "/posts/", posts)
+redirects <- c(fix_mistakes, others, new_redirects)
+
+# write the _redirect file
+writeLines(redirects, here::here("_redirects"))
+```
+

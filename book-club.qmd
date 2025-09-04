@@ -1,0 +1,21 @@
+---
+title: "Book club"
+include-in-header: 
+  - _includes/fontawesome.html
+---
+
+## Upcoming book
+
+After the success of our first book club, 
+we're in the beginning stages of planning the next one!
+
+If you have a recommendation of a book likely to be of interest to rainbowR members, 
+ideally something with to do with programming/data and also something queer, then [let us know](mailto:hello@rainbowr.org).
+
+## Previously discussed books
+
+- [**Queer Data: Using Gender, Sex and Sexuality Data for Action**](book-club/queer-data.qmd) (Nov 2024 - April 2025)
+
+:::{.aside}
+![](images/book-club/queer-data.jpeg)
+:::

@@ -2,13 +2,15 @@
 .Rhistory
 .RData
 .Ruserdata
-data/*
-book/*
-!book/_quarto.yml
-!book/custom.scss
-temp/*
-docs/*
+.vdoc.r
+
+.DS_Store
+posts/.DS_Store
 
 /.quarto/
-manuals/*
-books/*
+/_site/
+
+/.vscode/
+/.vscode/settings.json/
+
+book-club_files
