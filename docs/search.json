@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The R Manuals",
+    "section": "",
+    "text": "This is a restyled version of the R manuals, originally provided by the R Development Core team.\n\nThe primary aim of this site is to provide a re-styled and searchable version of the manuals, but we try very hard to keep the actual content as close to the original as possible. The r-styling consists mainly of:\n\nSplitting chapters into separate pages\nAdd code formatting\n\nOriginal R Manuals can be found at https://cran.r-project.org/manuals.html. The manuals in this website are built automatically from the originals using Quarto. Code can be found at https://github.com/rstudio/r-manuals.\nThe original license from the R Core development team explicitly allows modified versions of the original manual, under these terms:\n\nPermission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies. Permission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About this website",
+    "section": "",
+    "text": "Original R Manuals can be found at https://cran.r-project.org/manuals.html. The manuals in this website are built automatically from the originals using Quarto. You can find the scripts that do the conversion at https://github.com/rstudio/r-manuals."
+  }
+]
