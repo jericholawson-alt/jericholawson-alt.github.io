@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "SDS 192: Introduction to Data Science",
     "section": "",
-    "text": "This website is the central hub for all materials related to this iteration of SDS 192. Use the links on the right-side of the page to access particular content.\n\nOverviewScheduleResources\n\n\nSome text here.\n\n\nSome text here.\n\n\nSome text here."
+    "text": "Warning: package 'fs' was built under R version 4.4.3"
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
     "title": "SDS 192: Introduction to Data Science",
-    "section": "",
-    "text": "This website is the central hub for all materials related to this iteration of SDS 192. Use the links on the right-side of the page to access particular content.\n\nOverviewScheduleResources\n\n\nSome text here.\n\n\nSome text here.\n\n\nSome text here."
+    "section": "Welcome",
+    "text": "Welcome\nThis website is the central hub for all materials related to this iteration of SDS 192. Use the links on the right-side of the page to access particular content.\n\nOverviewScheduleResources\n\n\nSome text here.\n\n\nSome text here.\n\n\nSome text here."
   },
   {
     "objectID": "syllabus.html",
